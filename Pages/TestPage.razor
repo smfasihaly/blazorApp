@@ -1,0 +1,17 @@
+@page "/testPage"
+
+<ul>
+    @foreach (var word in Sentance.Split(' '))
+            {
+               
+                    <li>@word</li>
+                  
+             
+            }
+</ul>
+
+@code{
+    String Sentance = ("Apple Mango wahaj Orange Tomato");
+
+
+}
